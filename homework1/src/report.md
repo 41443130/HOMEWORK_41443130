@@ -9,8 +9,8 @@ problem1_本題要求實作 Ackermann 函數 $A(m,n)$，並分別以遞迴與非
 $$
 A(m,n)=
 \begin{cases}
-n+1 & \text{if } m=0 \\
-A(m-1,1) & \text{if } m>0,\ n=0 \\
+n+1 & \text{if } m=0 \\\\
+A(m-1,1) & \text{if } m>0,\ n=0 \\\\
 A(m-1,\ A(m,n-1)) & \text{if } m>0,\ n>0
 \end{cases}
 $$
