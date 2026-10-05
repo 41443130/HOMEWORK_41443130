@@ -7,12 +7,13 @@
 problem1_本題要求實作 Ackermann 函數 $A(m,n)$，並分別以遞迴與非遞迴方式完成。
 函數定義
 $$
-A(m,n)=
-\begin{cases}
+A(m,n)=\left\{
+\begin{array}{ll}
 n+1 & \text{if } m=0 \\\\
 A(m-1,1) & \text{if } m>0,\ n=0 \\\\
 A(m-1,\ A(m,n-1)) & \text{if } m>0,\ n>0
-\end{cases}
+\end{array}
+\right.
 $$
 problem2_
 本題要求撰寫一個遞迴函式，計算集合 $S$ 的冪集（powerset），也就是 $S$ 所有可能的子集合。
