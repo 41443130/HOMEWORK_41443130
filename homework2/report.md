@@ -3,7 +3,7 @@
 作業二
 
 ### 解題說明
-想法
+想法<br>
 用Trem(係數coef,指數exp)存在一個非零項,Polynomial用動態陣列termArray存所有非0項,
 並維持指數由大到小,同指數只能出現一次<br>
 1.capacity:陣列大小,terms:目前有幾個非零項<br>
